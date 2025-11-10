@@ -13,7 +13,6 @@ logger = logging.getLogger(__name__)
 
 def run():
     print("Loading vehicle and cycle data...")
-    veh = vehicle.Vehicle.from_vehdb(10)
     veh = vehicle.Vehicle.from_file("data/vehicles.csv", 10)
     cyc = cycle.Cycle.from_file("data/cycles/udds.csv")
     
