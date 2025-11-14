@@ -24,7 +24,7 @@ def run():
 
     print("Loading vehicle list and cycle data...")
     veh_list = FastSimVehicleList(args.input)
-    cyc = cycle.Cycle.from_file("data/cycles/udds.csv")
+    cyc = cycle.Cycle.from_file("data/cycles/wltc_3b.csv")
 
     results = []
 
